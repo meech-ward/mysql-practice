@@ -1,0 +1,46 @@
+#editors { 
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  left: 0;
+  align-items: stretch;
+  align-content: stretch;
+}
+
+#editors > * {
+  /* height: 100%;
+  width: 100%; */
+  /* flex-grow: 1; */
+}
+
+.editor_container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.editor_container > * {
+  width: 100%;
+}
+
+.editor {
+  /* flex-grow: 2; */
+  height: 50%;
+}
+
+div { word-break: break-all; }
+
+.editor_output, .editor_previous {
+  padding: 5px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+td, th {
+  padding: 5px;
+}
+
+button {
+  height: 40px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SQL</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.12/ace.js" integrity="sha512-GZ1RIgZaSc8rnco/8CXfRdCpDxRCphenIiZ2ztLy3XQfCbQUSCuk8IudvNHxkRA3oUg6q0qejgN/qqyG1duv5Q==" crossorigin="anonymous"></script>
+  <script src="https://cdn.socket.io/socket.io-3.0.1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.0/axios.min.js" integrity="sha512-DZqqY3PiOvTP9HkjIWgjO6ouCbq+dxqWoJZ/Q+zPYNHmlnI2dQnbJ5bxAHpAMw+LXRm4D72EIRXzvcHQtE8/VQ==" crossorigin="anonymous"></script>
+  <script type="module" src="script.js"></script>
+
+</head>
+<body>
+  
+  <div id="editors">
+    <div class="editor_container">
+      <p>Session 1:</p>
+      <div class="editor" id="editor1"></div>
+      <button class="editor_submit">Submit</button>
+      <button class="transaction_button">Get Transaction Details</button>
+      <div class="editor_previous">Code:<br><pre><code></code></pre></div>
+      <div class="editor_output">Ouput:<br><pre><code></code></pre></div>
+    </div>
+    <div class="editor_container">
+      <p>Session 2:</p>
+      <div class="editor" id="editor2"></div>
+      <button class="editor_submit">Submit</button>
+      <button class="transaction_button">Get Transaction Details</button>
+      <div class="editor_previous">Code:<br><pre><code></code></pre></div>
+      <div class="editor_output">Ouput:<br><pre><code></code></pre></div>
+    </div>
+  </div>
+
+</body>
+</html>
